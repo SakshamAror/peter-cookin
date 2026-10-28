@@ -4,6 +4,8 @@ Your camera-wielding kitchen sidekick: spot ingredients, get recipe ideas, and a
 
 Peter Cookin is a local macOS desktop app built with Python and Tkinter. It uses OpenCV and Ultralytics YOLOE with ByteTrack to propose and track food and pantry-item labels. Gemini reviews uncertain items, reads visible package text, suggests recipes, and checks cooking progress from camera snapshots. Voiskey can dictate into the prompt field, and ElevenLabs reads Gemini's replies aloud. Apple Vision OCR helps read English package labels locally.
 
+[![Peter Cookin demo](https://img.youtube.com/vi/-veDtUgF7RM/maxresdefault.jpg)](https://www.youtube.com/watch?v=-veDtUgF7RM)
+
 ## Run it
 
 1. Install Python 3.12 or newer and Swift (included with Xcode Command Line Tools).
