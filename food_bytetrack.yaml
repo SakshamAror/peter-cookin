@@ -1,0 +1,9 @@
+# ByteTrack thresholds tuned to retain weak vegetable candidates for display.
+# Gemini's one-time startup review can correct or remove bad labels.
+tracker_type: bytetrack
+track_high_thresh: 0.005
+track_low_thresh: 0.005
+new_track_thresh: 0.005
+track_buffer: 30
+match_thresh: 0.8
+fuse_score: True

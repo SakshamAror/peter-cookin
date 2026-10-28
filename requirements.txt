@@ -1,0 +1,7 @@
+ultralytics>=8.4,<9
+opencv-python>=4.10,<5
+google-genai>=1.0
+python-dotenv>=1.0,<2
+elevenlabs>=1.0
+pygame>=2.5,<3
+Pillow>=10.0
