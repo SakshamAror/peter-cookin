@@ -21,7 +21,7 @@ Copy `.env.example` to `.env`, then add your Gemini and ElevenLabs credentials. 
 
 ## How it works
 
-- Local YOLOE proposals are tracked as items move; labels appear after Gemini confirms food or cooking ingredients.
+- Local YOLO proposals are tracked as items move; labels appear after Gemini confirms food or cooking ingredients.
 - The first Gemini label review starts two seconds after launch. Further reviews run every five seconds for new candidates.
 - Recipe and cooking-progress prompts include a camera snapshot and recent item labels. The continuous camera feed stays local.
 - Correct or remove labels in the prompt field; these simple edits are handled locally.
